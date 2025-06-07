@@ -8,3 +8,5 @@ redirect_from:
 ---
 
 
+Welcome to my page! It is currently under construction and please come back for updates. Thank you!
+
