@@ -22,14 +22,14 @@ repository               : "baodaqian/baodaqian.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "daqian_anime.png"
-  name             : "Daqian Bao"
-  pronouns         : # example: "she/her"  
-  bio              : "My name sounds like "Dah-Chian Bau". I am a second year PhD in Machine Learning at Georgia Institute of Technology. I am mainly working on multimodal sensing models."
-  location         : "Atlanta, Georgia, US"
-  employer         : "Georgia Institute of Technology"
-  uri              : # URL
-  email            : "daqianbao@gatech.edu" 
+  avatar          : "daqian_anime.png"
+  name            : "Daqian Bao"
+  pronouns        : # example: "she/her"
+  bio             : "My name sounds like "Dah-Chian Bau". I am a second year PhD in Machine Learning at Georgia Institute of Technology. I am mainly working on multimodal sensing models."
+  location        : "Atlanta, Georgia, US"
+  employer        : "Georgia Institute of Technology"
+  uri             : # URL
+  email           : "daqianbao@gatech.edu"
 
   # Academic websites
   academia         : # URL
