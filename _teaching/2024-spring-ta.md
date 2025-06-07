@@ -1,14 +1,13 @@
 ---
-title: "Graduate Teaching Assistant, Adaptive Filters (ECE 6270)"
+title: "Graduate Teaching Assistant, Statistical Machine Learning (ECE 6254)"
 collection: teaching
 type: "Teaching"
-permalink: /teaching/2024-summer-ta
+permalink: /teaching/2024-spring-ta
+share: false
 venue: "Georgia Institute of Technology"
-date: 2024-05-01 # SU for Summer
+date: 2024-01-08 
 location: "Atlanta, GA"
-role: "Head TA" # <-- New custom field
-instructor: "Dr. David Anderson" # <-- New custom field
-instructor_url: "https://research.gatech.edu/people/david-anderson" # <-- New custom field
+role: Graduate TA
+instructor: "Dr. Mark Davenport" # <-- New custom field
+instructor_url: "https://mdav.ece.gatech.edu/ece-6254-spring2024/" # <-- New custom field
 ---
-
-As the head TA, I was responsible for coordinating with other TAs, holding office hours, and grading assignments for this graduate-level course on signal processing.

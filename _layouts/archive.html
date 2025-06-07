@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include base_path %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}
@@ -19,6 +21,14 @@ layout: default
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
+
+    {% if page.title == 'Teaching' %}
+      <div class="page__content">
+        <p>
+          I am honored to serve as Graduate Teaching Assistant for multiple courses in ECE department and Machine Learning Center at Georgia Tech. I sincerely appreciate the experiences that build me a strong interpersonal skill and fundamentals in Machine Learning. 
+        </p>
+      </div>
+      <hr> {% endif %}
     {{ content }}
   </div>
 </div>

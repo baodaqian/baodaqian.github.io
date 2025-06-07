@@ -25,7 +25,7 @@ author:
   avatar: "daqian_anime.png"
   name: "Daqian Bao"
   pronouns: # example: "she/her"
-  bio: "I am Daqian Bao (it sounds like 'Dah-Chian Bau'), a PhD student in Machine Learning at Georgia Institute of Technology. My research interest mainly include multimodal sensing using computer vision techniques and low rank gradient optimization methods."
+  bio: "I am Daqian Bao (it sounds like 'Dah-Chian Bau'), a second year PhD student in Machine Learning at Georgia Institute of Technology."
   location: "CODA 1175K, Georgia Institute of Technology, Atlanta, GA"
   employer: "Georgia Institute of Technology"
   uri: # URL
@@ -245,7 +245,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _publications
   - scope:
