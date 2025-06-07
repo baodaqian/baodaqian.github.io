@@ -11,26 +11,11 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Ph.D in Machine Learning, Georgia Institute of Technology, 2028 (expected)
+* M.S. in Electrical and Computer Engineering, Georgia Institute of Technology, 2023
+* B.S. in Applied Mathematics, University of California Los Angeles, 2020
+* B.S. in Material Science and Engineering (Electronics), University of California Los Angeles, 2020
+  
   
 Skills
 ======
@@ -59,6 +44,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+

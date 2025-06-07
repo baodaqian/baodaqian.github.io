@@ -1,20 +1,14 @@
 ---
-title: "Teaching experience 2"
+title: "Graduate Teaching Assistant, Adaptive Filters (ECE 6270)"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Teaching"
+permalink: /teaching/2024-summer-ta
+venue: "Georgia Institute of Technology"
+date: 2024-05-01 # SU for Summer
+location: "Atlanta, GA"
+role: "Head TA" # <-- New custom field
+instructor: "Dr. David Anderson" # <-- New custom field
+instructor_url: "https://research.gatech.edu/people/david-anderson" # <-- New custom field
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+As the head TA, I was responsible for coordinating with other TAs, holding office hours, and grading assignments for this graduate-level course on signal processing.
