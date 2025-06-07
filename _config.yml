@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale: "en-US"
 site_theme: "default"
-title: "Daqian Bao - Personal Website"
+title: "Daqian Bao"
 title_separator: "-"
 name: &name "Daqian Bao"
 description: &description "personal description"
