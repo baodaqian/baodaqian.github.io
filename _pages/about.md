@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-Welcome to my page! The last time I update this page is June 7th, 2025. This page is still under construction and please come back for more updates!
+Welcome to my page! The last time I update this page is June 7th, 2025. This page is still under construction (hence you may notice a lot of different bugs and incomplete stuff) and please come back for more updates!
 
 
 --- 
