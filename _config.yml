@@ -17,11 +17,8 @@ url: https://baodaqian.github.io
 baseurl: ""
 repository: "baodaqian/baodaqian.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-# If a field is blank the icon and link will not appear, otherwise it will be shown.
-# Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
   avatar: "daqian_anime.png"
   name: "Daqian Bao"
   pronouns: # example: "she/her"
@@ -30,53 +27,11 @@ author:
   employer: "Georgia Institute of Technology"
   uri: # URL
   email: 139935532+baodaqian@users.noreply.github.com
-
-  # Academic websites
-  academia: # URL
-  arxiv: # URL - Update with the correct link to your profile
   googlescholar: "https://scholar.google.com/citations?user=EW_hy6cAAAAJ&hl=en"
-  impactstory: # URL
-  orcid: # URL
-  semantic: # URL
-  pubmed: # URL
-  researchgate: # URL
-  scopus: # URL
-
-  # Repositories and software development
-  bitbucket: # Username - Update with your username on the site
-  codepen: # Username
-  dribbble: # Username
   github: "baodaqian"
-  kaggle: # Username
-  stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
+  # Add other social/academic links here if you wish
 
-  # Social media
-  bluesky: # Username
-  facebook: # Username
-  flickr: # Username
-  foursquare: # Username
-  goodreads: # Username
-  google_plus: # Username
-  keybase: # Username
-  instagram: # Username
-  lastfm: # Username
-  linkedin: # Username
-  mastodon: # URL
-  medium: # URL
-  pinterest: # Username
-  soundcloud: # Username
-  steam: # Username
-  telegram: # URL
-  tumblr: # Username
-  twitter: # Username for X / Twitter
-  vine: # Username
-  weibo: # Username
-  wikipedia: # Username
-  xing: # Username
-  youtube: # Username
-  zhihu: # Username
-
-# Publication Category - The following the list of publication categories and their headings
+# Publication Category
 publication_category:
   books:
     title: 'Books'
@@ -94,52 +49,6 @@ read_more: "disabled"
 talkmap_link: false
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname:
-  discourse:
-    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid:
-    num_posts: # 5 (default)
-    colorscheme: # "light" (default), "dark"
-staticman:
-  allowedFields: ['name', 'email', 'url', 'message']
-  branch: "gh-pages"
-  commitMessage: "New comment."
-  filename: comment-{@timestamp}
-  format: "yml"
-  moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ['name', 'email', 'message']
-  transforms:
-    email: "md5"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
-atom_feed:
-  hide: false
-  path: # blank (default) uses feed.xml
-
-# SEO Related
-google_site_verification:
-bing_site_verification:
-alexa_site_verification:
-yandex_site_verification:
-
-# Social Sharing
-twitter:
-  username: &twitter
-facebook:
-  username:
-  app_id:
-  publisher:
-og_image: # Open Graph/Twitter default site image
-social:
-  type: # Person or Organization (defaults to Person)
-  name: # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -203,9 +112,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# These settings control the types of collections used by the template
+# Collections
 collections:
   teaching:
+    output: true
+    permalink: /:collection/:path/
+  preprints:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -218,7 +130,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# These settings control how pages and collections are included in the site
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -246,6 +158,15 @@ defaults:
       layout: single
       author_profile: true
       share: false
+      comments: true
+  # _preprints (This was the missing section)
+  - scope:
+      path: ""
+      type: preprints
+    values:
+      layout: single
+      author_profile: true
+      share: true
       comments: true
   # _publications
   - scope:
@@ -291,26 +212,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
-# Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
