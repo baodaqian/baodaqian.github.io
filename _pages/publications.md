@@ -9,14 +9,19 @@ author_profile: true
 
 You can also find a full list of my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=EW_hy6cAAAAJ).
 
-## Publications
+## Journal Publications
+{% assign journal_papers = site.publications | where: "pubtype", "Journal" | sort: "date" | reverse %}
+{% for post in journal_papers %}
+  {% include archive-single.html %}
+{% endfor %}
 
-{% for post in site.publications reversed %}
+## Conference Publications
+{% assign conference_papers = site.publications | where: "pubtype", "Conference" | sort: "date" | reverse %}
+{% for post in conference_papers %}
   {% include archive-single.html %}
 {% endfor %}
 
 ## Preprints
-
 {% for post in site.preprints reversed %}
   {% include archive-single.html %}
 {% endfor %}
