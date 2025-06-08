@@ -3,6 +3,7 @@ title: "Efficient artificial intelligence techniques for inverse design and know
 collection: publications
 pubtype: 'Conference' 
 permalink: /publication/2022-04-01-inverse-design
+share: false
 date: 2022-04-01
 venue: 'The Journal of the Acoustical Society of America'
 paperurl: 'https://doi.org/10.1121/10.0011238'

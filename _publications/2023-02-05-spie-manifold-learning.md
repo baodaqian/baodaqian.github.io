@@ -3,6 +3,7 @@ title: "New paradigms in manifold learning for knowledge discovery and inverse d
 collection: publications
 pubtype: 'Conference'
 permalink: /publication/2023-02-05-spie-manifold-learning
+share: false
 date: 2023-02-05
 venue: 'SPIE OPTO'
 paperurl: 'https://doi.org/10.1117/12.2662754'

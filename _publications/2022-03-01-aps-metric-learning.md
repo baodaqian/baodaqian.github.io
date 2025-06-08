@@ -3,6 +3,7 @@ title: "Metric learning: a new approach for defining similarity measures for nan
 collection: publications
 pubtype: 'Conference'
 permalink: /publication/2022-03-01-aps-metric-learning
+share: false
 date: 2022-03-01
 venue: 'Bulletin of the American Physical Society (APS March Meeting 2022)'
 paperurl: 'https://meetings.aps.org/Meeting/MAR22/Session/A24.3'
