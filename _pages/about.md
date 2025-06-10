@@ -14,11 +14,11 @@ Welcome to my page! The last time I update this page is June 7th, 2025. This pag
 --- 
 My name is Daqian Bao, and I am a Ph.D. student in Machine Learning (ML) at the Georgia Institute of Technology (Georgia Tech). As a PhD student, I am very fortunate to be able to work with Dr. [Justin Romberg](https://jrom.ece.gatech.edu/) as his advisee.
 
-My research is currently focused on two different fields:
+My research is currently on several different fields, a great part of the research is inspired by Dr. Romberg's previous work on deep learning/compression/compressive sensing:
 - The multimodal sensing method for 3D reconstructions.
   - For multimodal sensing methods, I am currently working on combining traditional 3D reconstruction algorithms with radar signal processing models to generate 3D rendering in reasonable speed. Although the computation is potentially slower for radar, it is more robust against poor visibility. 
-- AI for Science.
-  - I am working on using simple machine learning model for compression of radar signal processing application. I will share more details when it is appropriate to do so.
+- AI for Science. In particular, AI for Digital Signal Processing.
+  - I am working on using simple machine learning model for compression of digital signal processing application. I will share more details when it is appropriate to do so.
 - Spectral properties of optimization algorithms for compression.
   - I will provide more update when the time is appropriate.
 
