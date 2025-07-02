@@ -12,7 +12,7 @@ Welcome to my page! The last time I update this page is June 7th, 2025. This pag
 
 
 --- 
-My name is Daqian Bao, and I am a Ph.D. student in Machine Learning (ML) at the Georgia Institute of Technology (Georgia Tech). As a PhD student, I am very fortunate to be able to work with Dr. [Justin Romberg](https://jrom.ece.gatech.edu/) as his advisee.
+My name is Daqian Bao, and I am a Ph.D. student in Machine Learning (ML) at the Georgia Institute of Technology (Georgia Tech). From Janurary 2024, I am very fortunate to be able to work with Dr. [Justin Romberg](https://jrom.ece.gatech.edu/) as his advisee.
 
 My research is currently on several different fields, a great part of the research is inspired by Dr. Romberg's previous work on deep learning/compression/compressive sensing:
 - The multimodal sensing method for 3D reconstructions.
