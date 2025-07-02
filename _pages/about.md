@@ -18,7 +18,7 @@ My research is currently on several different fields, a great part of the resear
 - The multimodal sensing method for 3D reconstructions.
   - For multimodal sensing methods, I am currently working on combining traditional 3D reconstruction algorithms with radar signal processing models to generate 3D rendering in reasonable speed. Although the computation is potentially slower for radar, it is more robust against poor visibility. 
 - AI for Science. In particular, AI for Digital Signal Processing.
-  - I am working on using simple machine learning model for compression of digital signal processing application. I will share more details when it is appropriate to do so.
+  - I am also working on ML models for DSP applications following my advisor's expertise.
 - Spectral properties of optimization algorithms for compression.
   - I will provide more update when the time is appropriate.
 

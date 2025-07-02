@@ -44,7 +44,7 @@ publication_category:
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false
 words_per_minute: 160
-future: true
+future: false
 read_more: "disabled"
 talkmap_link: false
 comments:
@@ -114,6 +114,9 @@ kramdown:
 
 # Collections
 collections:
+  posts: # Add this entire section
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -140,7 +143,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
